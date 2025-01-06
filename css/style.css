@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+body {
+  background-color: hsl(0, 0%, 100%);
+  background-image: radial-gradient(circle at 91% 11%, hsla(242, 100%, 88%, 0.66) 4.0387722132%, transparent 37.2265767974%), radial-gradient(circle at 66% 37%, hsl(191.9117647059, 100%, 88%) 0%, transparent 63.3364095611%), radial-gradient(circle at 36% 87%, hsl(136.3235294118, 100%, 88%) 12.1075360571%, transparent 63.3364095611%);
+  background-blend-mode: normal, normal, normal;
+}
+body header {
+  background-image: url(/img/CARATULA.jgp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px;
+}
+body header .caratula {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 150px;
+  padding: 5px 10%;
+}
+body header .caratula .header .logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body header .caratula a {
+  list-style: none;
+}
+body header .caratula .nav-links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+body header .caratula .nav-links {
+  list-style: none;
+}
+body header .caratula .nav-links .btn1 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+body header .caratula .nav-links .btn1:focus,
+body header .caratula .nav-links .btn1:hover {
+  color: #fff;
+}
+body header .caratula .nav-links .btn1:focus:after,
+body header .caratula .nav-links .btn1:hover:after {
+  width: 100%;
+  left: 0%;
+}
+body header .caratula .nav-links .btn1:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+body header .logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body header .logo .logo-nombre:hover {
+  transform: scale(1.2);
+}
+body .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: auto;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+body .container .titulo {
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150px;
+  color: #260016;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 22px;
+}
+
+a {
+  list-style: none;
+}
+
+.containerx {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.containerx .logo-sobre img {
+  width: 550px;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.containerx .contenido {
+  padding: 50px;
+}
+.containerx .contenido .titulo2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 3.5rem;
+  color: #260016;
+  padding: 22px;
+}
+.containerx .contenido .parrafo2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.3rem;
+}
+.containerx .contenido .div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.containerx .contenido .div .btn2 {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #ffa463;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  justify-content: center;
+}
+.containerx .contenido .div .btn2:hover {
+  background: #f66b40;
+}
+.containerx .contenido .div .btn2 > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.containerx .contenido .div .btn2:hover svg {
+  transform: translateX(5px);
+}
+.containerx .contenido .div .btn2:active {
+  transform: scale(0.95);
+}
+
+.padre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.padre .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+}
+.padre .card .galeria img {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.padre .card1 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.padre .card2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.padre .card3 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+.padre .carta {
+  grid-column: span 3/span 3;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.padre .carta .carta1 {
+  font-size: 3rem;
+  padding: 20px;
+  color: #260016;
+}
+.padre .card > .h1 {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.padre .card > .p {
+  color: #9e9da1;
+  font-size: 14px;
+  text-align: center;
+}
+
+.containerxx {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 40px;
+}
+.containerxx .h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 3.5rem;
+  color: #260016;
+}
+.containerxx .p2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.2rem;
+}
+.containerxx .logo-sobrex2 img {
+  width: 450px;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .caratula {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .nav-links {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: auto;
+    height: auto;
+  }
+  .containerx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px;
+  }
+  .containerx .logo-sobre {
+    margin: -100px;
+  }
+  .containerx .logo-sobre img {
+    width: 400px;
+    padding: 0;
+  }
+  .contenido {
+    height: 200px;
+    padding: 50px;
+  }
+  .titulo2 {
+    padding: 20px;
+    margin: 0;
+  }
+  .containerxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px;
+  }
+  .containerxx .logo-sobrex2 img {
+    width: 350px;
+    padding: 0;
+  }
+  .padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 50px;
+    margin-bottom: -100px;
+  }
+  .padre .carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    padding: 50px;
+  }
+}
+footer {
+  background-color: #fff;
+  min-height: 150px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* From Uiverse.io by david-mohseni */
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

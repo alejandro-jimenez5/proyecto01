@@ -1,26 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Kumbh Sans", sans-serif;
-    font-size: 22px;
-    
-
-}
-
 body{
     background-color: hsla(0, 0%, 100%, 1);
     background-image: radial-gradient(circle at 91% 11%, hsla(241.99999999999997, 100%, 88%, 0.66) 4.038772213247173%, transparent 37.2265767974114%), radial-gradient(circle at 66% 37%, hsla(191.91176470588238, 100%, 88%, 1) 0%, transparent 63.33640956108327%), radial-gradient(circle at 36% 87%, hsla(136.32352941176467, 100%, 88%, 1) 12.107536057085522%, transparent 63.33640956108327%);
     background-blend-mode: normal, normal, normal; 
 }
+
 
 header{
     background-image: url(CARATULA.jgp.jpg);
@@ -31,7 +14,7 @@ header{
 }
 
 
-.header{
+.caratula{
     display: flex;
     justify-content: space-between;   
     align-items: center;
@@ -40,7 +23,7 @@ header{
 
 
 }
-.header .logo{
+.caratula .logo{
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -54,21 +37,18 @@ header{
     transform: scale(1.2);
 }
 
-.logo img{
-    width: 100px;
-}
 
-.header .nav-links{
+.caratula .nav-links{
     list-style: none;
 }
 
-.header .nav-links li{
+.caratula .nav-links li{
     display: inline-block;
     padding: 0 10px
 }
 
 
-.header .nav-links .btn1{
+.caratula .nav-links .btn1{
     font-size: 18px;
     color: #e1e1e1;
     font-family: inherit;
@@ -108,9 +88,6 @@ header{
   transition-property: width, left;
 }
 
-.header .logo img:hover{
-    transform: scale(1.2);
-}
 
 /* From Uiverse.io by vinodjangid07 */ 
 .Btn {
@@ -180,7 +157,7 @@ header{
     transform: translate(2px ,2px);
   }
 
-.container {
+  .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,10 +185,7 @@ header{
     padding: 30px;
   }
 
-
-
-  
-.containerx {
+  .containerx {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -436,195 +410,8 @@ header{
 
 }
 
-.wrapper {
-  display: inline-flex;
-  list-style: none;
-  height: 120px;
-  width: 100%;
-  padding-top: 40px;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-}
-
-.wrapper .icon {
-  position: relative;
-  background: #fff;
-  border-radius: 50%;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #fff;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #fff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background: #1877f2;
-  color: #fff;
-}
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background: #e4405f;
-  color: #fff;
-}
-
-footer{
-  background-color: #ffa463;
-  padding: 50px;
-}
 
 
 
     
 
-@media (max-width:700px) {
-    .header{
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .nav-links{
-        display: flex;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        padding: 30px;
-
-    }
-    .container{
-        display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: auto;
-    height: auto;  
-    }
-
-  
-
-    .containerx{
-        display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 100px;
-
-    }
-
-    .contenido{
-        height: 200px;
-        padding: 50px;
-
-    }
-
-
-    .logo-sobre{
-        margin: -100px;
-    }
-
-    .logo-sobre img{
-        width:400px ;
-        padding: 0;
-        
-
-    }
-
-    .contenido h2{
-        padding: 20px;
-        margin: 0;
-    }
-
-    
-    .containerxx{
-        display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 100px;
-
-    }
-
-   
-
-    .padre {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 120px;
-        margin-top: 200px;
-    }
-
-    .titulo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 200px;
-    }
-
-
- 
-    .logo-sobrex2 img{
-        width: 350px;
-        padding: 0;
-    }
- 
-
-
-    
-}

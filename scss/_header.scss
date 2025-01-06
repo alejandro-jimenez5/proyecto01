@@ -1,0 +1,143 @@
+body{
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image: radial-gradient(circle at 91% 11%, hsla(241.99999999999997, 100%, 88%, 0.66) 4.038772213247173%, transparent 37.2265767974114%), radial-gradient(circle at 66% 37%, hsla(191.91176470588238, 100%, 88%, 1) 0%, transparent 63.33640956108327%), radial-gradient(circle at 36% 87%, hsla(136.32352941176467, 100%, 88%, 1) 12.107536057085522%, transparent 63.33640956108327%);
+    background-blend-mode: normal, normal, normal; 
+
+    
+    header{
+    background-image: url(/img/CARATULA.jgp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+
+    .caratula{
+        display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    min-height: 150px;
+    padding: 5px 10%;
+
+    .header .logo{
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+
+  
+a{
+  list-style: none;
+}
+
+    .nav-links li{
+      display: inline-block;
+        padding: 0 10px
+    }
+
+
+    .nav-links{
+        list-style: none;
+        .btn1{
+          font-size: 18px;
+          color: #ffffff;
+          font-family: inherit;
+          font-weight: 800;
+          cursor: pointer;
+          position: relative;
+          border: none;
+          background: none;
+          text-transform: uppercase;
+          transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+          transition-duration: 400ms;
+          transition-property: color;
+      }
+      
+      .btn1:focus,
+      .btn1:hover {
+        color: #fff;
+      }
+      
+      .btn1:focus:after,
+      .btn1:hover:after {
+        width: 100%;
+        left: 0%;
+      }
+      
+      .btn1:after {
+        content: "";
+        pointer-events: none;
+        bottom: -2px;
+        left: 50%;
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background-color: #fff;
+        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition-duration: 400ms;
+        transition-property: width, left;
+      }
+        
+      
+  
+}
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        color: white;
+
+        .logo-nombre{
+            &:hover{
+                transform: scale(1.2);
+            }
+
+        }
+
+    }
+
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: auto;
+        height: 100%;  
+        margin-top: 100px;
+        margin-bottom: 150px; 
+
+        .titulo{
+          font-family: "Boogaloo", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        font-size: 150px;
+        color: #260016;
+      
+      
+        }
+
+       
+
+        
+
+            
+              
+
+
+
+          
+
+
+}
+    
+
+
+
+
+}

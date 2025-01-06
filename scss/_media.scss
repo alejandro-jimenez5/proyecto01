@@ -1,0 +1,111 @@
+@media (max-width:700px) {
+    .caratula{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav-links{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+    }
+    .container{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: auto;
+    height: auto;  
+    }
+
+  
+
+    .containerx{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px;
+
+    .logo-sobre{
+        margin: -100px;
+    
+    }
+    .logo-sobre img{
+        width:400px ;
+        padding: 0;
+        
+
+    }
+
+    }
+
+    .contenido{
+        height: 200px;
+        padding: 50px;
+
+    }
+
+
+   
+
+
+    .titulo2{
+        padding: 20px;
+        margin: 0;
+    }
+
+    
+    .containerxx{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px;
+
+    .logo-sobrex2 img{
+        width: 350px;
+        padding: 0;
+    }
+
+ 
+    }
+
+   
+
+    .padre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        padding: 50px;
+        margin-bottom: -100px;
+
+        .carta{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 200px;
+            padding: 50px;
+        }
+    }
+
+
+
+ 
+
+
+    
+}

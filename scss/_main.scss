@@ -1,0 +1,208 @@
+.containerx {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .logo-sobre img {
+    width: 550px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .contenido {
+    padding: 50px;
+
+    .titulo2 {
+      font-family: "Noto Sans JP", sans-serif;
+      font-size: 3.5rem;
+      color: #260016;
+      padding: 22px;
+    }
+
+    .parrafo2{
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .btn2 {
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.2s;
+            padding: 10px 20px;
+            border-radius: 100px;
+            background: #ffa463;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            justify-content: center;
+          }
+          
+          .btn2:hover {
+            background: #f66b40;
+          }
+          
+          .btn2 > svg {
+            width: 34px;
+            margin-left: 10px;
+            transition: transform 0.3s ease-in-out;
+          }
+          
+          .btn2:hover svg {
+            transform: translateX(5px);
+          }
+          
+          .btn2:active {
+            transform: scale(0.95);
+          }
+          
+        
+    }
+  }
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: auto; 
+    margin-top:100px ;
+    margin-bottom:100px ;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        gap: 10px;
+        cursor: pointer;
+
+        .galeria img{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      }
+
+    .card1 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        
+    }
+    
+    .card2 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    
+        
+    
+    }
+    
+    .card3 {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    
+        
+    
+    }
+    
+    .carta {
+        grid-column: span 3 / span 3;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .carta1{
+            font-size: 3rem;
+            padding: 20px;
+            color:#260016;
+        
+        }
+
+
+        
+        
+    }
+
+   
+    
+
+    .card > .h1 {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+      }
+      
+      .card > .p {
+        color: #9e9da1;
+        font-size: 14px;
+        text-align: center;
+      }
+
+}
+
+
+.containerxx{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding: 40px;
+
+    .h2{
+        font-family: "Noto Sans JP", sans-serif;
+  font-size: 3.5rem;
+  color: #260016;
+    }
+
+    .p2{
+        font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.2rem;
+
+    }
+
+    
+  .logo-sobrex2 img{
+    width: 450px;
+    height: auto;
+  }
+
+  
+    
+}
+
+
+
+
